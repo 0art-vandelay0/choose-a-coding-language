@@ -23,7 +23,7 @@
                 <label for="q2">I am most concerned with Cross-Platform Compatibility.</label>
                 <br>
                 <input id="q3" type="radio" name="language" value="rust">
-                <label for="q3">I care about a faster performance with low memory footprint.</label>
+                <label for="q3">I care most about security & performance with low memory footprint.</label>
                 <br>
                 <input id="q4" type="radio" name="language" value="javascript">
                 <label for="q4">I want to focus more on the front-end of web devopment.</label>
@@ -60,7 +60,12 @@
 
                 </div>
                 <div id="rust" class="hidden">
-                    <p>You should try Rust!</p>
+                    <p class="bold">You should try <span class="uppercase">Rust!</span></p>
+                    <p>Rust prioritizes performance and safety, offering faster execution speeds and early detection of
+                        common errors through strict compile-time checks. It is an excellent choice for
+                        performance-critical systems programming and projects that require reliability.</p>
+                    <p>Rust's unique ownership system enables efficient memory management without a garbage collector,
+                        making it ideal for low-level programming requiring precise memory control.</p>
                 </div>
                 <div id="errorMessage" class="hidden">
                     <p>You should really select at least one statement. Try again.</p>

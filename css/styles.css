@@ -18,6 +18,10 @@ form {
     text-align: left;
 }
 
+.form-entry {
+    min-width: 700px;
+}
+
 label {
     display: inline-block;
     margin-bottom: 10px;
@@ -38,13 +42,25 @@ button {
     margin: 10px;
 }
 
-.choiceResponse {
+/* .choiceResponse {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    max-width: 700px;
+} */
+
+.choiceResponse div p {
     margin-top: 20px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    max-width: 700px;
+    background-color: whitesmoke;
+    color: #56254b;
 }
 
 .bold {

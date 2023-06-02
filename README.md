@@ -1,37 +1,45 @@
-# _{Application Name}_
+# Choose a Programming Language
 
-#### By _**{List of contributors}**_
+#### By _Casey Hill_
 
-#### _{Brief description of application}_
+#### A simple interface that chooses a programming language for you to learn.
 
 ## Technologies Used
 
 - JavaScript
 - HTML
 - CSS
-- _here_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This application will choose a programming language for you based on the statement that you choose most fits your needs. All you need to do is pick one statement and the program will chose one of three languages that most fits that description.
 
 ## Setup/Installation Requirements
 
-- _This is a great place_
-- _to list setup instructions_
-- _in a simple_
-- _easy-to-understand_
-- _format_
+### In VS Code
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+- Clone this repository to your local machine.
+- Open VS Code
+- Open the top level directory you just cloned
+- Open index.html in your Live Server extension
+
+### Directly in Browser
+
+- Clone this repository to your local machine.
+- Navigate to your browser
+- File > Open File > Choose {folder you just cloned} > open index.html
 
 ## Known Bugs
 
-- _Any known issues_
-- _should go here_
+- No known bugs
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}_
+Please contact caseyfhill1@gmail.com with any the following:
 
-Copyright (c) _date_ _author name(s)_
+- Found bugs
+- Alterations and improvements
+- General Questions
+- Any contributions you would like to make!
+
+Copyright (c) 06/02/2023 Casey Hill

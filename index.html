@@ -14,8 +14,8 @@
     <div>
         <h1>Choose a Coding Language</h1>
         <p>Check which statement is most important to you when choosing a language:</p>
-        <div class="form-class">
-            <form id="languageSurvery">
+        <div class="form">
+            <div class="form-entry" id="languageSurvery">
                 <input id="q1" type="radio" name="language" value="python">
                 <label for="q1">I care about concise, easily readable, and straightforward syntax.</label>
                 <br>
@@ -32,9 +32,9 @@
                 <label for="q5">This is a python statement to fit the div.</label>
                 <br>
                 <button id="subButton" type="submit">Submit</button>
-            </form>
-
-            <div class="choiceResponse">
+                </form>
+            </div>
+            <div id="response-container" class="choiceResponse hidden">
                 <div id="python" class="hidden">
                     <p class="bold">You should try <span class="uppercase">Python!</span></p>
                     <p>Python is more readable than most languages because it uses a simplified syntax with clear and

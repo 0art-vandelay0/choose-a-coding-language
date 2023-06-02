@@ -44,6 +44,7 @@ button {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 .bold {

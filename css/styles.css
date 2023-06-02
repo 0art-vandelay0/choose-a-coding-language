@@ -42,7 +42,7 @@ button {
     margin: 10px;
 }
 
-/* .choiceResponse {
+/* .choice-response {
     margin-top: 20px;
     padding: 10px;
     border-radius: 4px;
@@ -51,7 +51,7 @@ button {
     max-width: 700px;
 } */
 
-.choiceResponse div p {
+.choice-response div p {
     margin-top: 20px;
     padding: 10px;
     border: 1px solid #ccc;

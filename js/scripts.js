@@ -3,7 +3,6 @@ function hideResults() {
     document.getElementById("python").setAttribute("class", "hidden");
     document.getElementById("javaScript").setAttribute("class", "hidden");
     document.getElementById("errorMessage").setAttribute("class", "hidden");
-    // document.getElementById("responseContainer").setAttribute("class", "hidden");
 }
 
 function handleRadio(event) {
@@ -16,17 +15,13 @@ function handleRadio(event) {
     const q5 = document.querySelector("#q5:checked");
 
     if (!q1 && !q2 && !q3 && !q4 && !q5) {
-        // document.getElementById("responseContainer").removeAttribute("class");
         document.getElementById("errorMessage").removeAttribute("class");
     } else {
         if (q1 || q5) {
-            // document.getElementById("responseContainer").removeAttribute("class");
             document.getElementById("python").removeAttribute("class");
         } else if (q2 || q4) {
-            // document.getElementById("responseContainer").removeAttribute("class");
             document.getElementById("javaScript").removeAttribute("class");
         } else if (q3) {
-            // document.getElementById("responseContainer").removeAttribute("class");
             document.getElementById("rust").removeAttribute("class");
         };
     };

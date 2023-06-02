@@ -1,6 +1,6 @@
-# Choose a Programming Language
+# Choose a Programming Language :computer:
 
-#### By _Casey Hill_
+#### By Casey Hill
 
 #### A simple interface that chooses a programming language for you to learn.
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-This application will choose a programming language for you based on the statement that you choose most fits your needs. All you need to do is pick one statement and the program will chose one of three languages that most fits that description.
+This application will choose a programming language for you based on the statement that you choose most fits your needs. All you need to do is pick one statement and the program will chose one of three languages that most fits that description. :bar_chart:
 
 ## Setup/Installation Requirements
 
@@ -31,15 +31,15 @@ This application will choose a programming language for you based on the stateme
 
 ## Known Bugs
 
-- No known bugs
+- No known bugs :beetle:
 
 ## License
 
 Please contact caseyfhill1@gmail.com with any the following:
 
-- Found bugs
+- Found bugs :lady_beetle:
 - Alterations and improvements
 - General Questions
-- Any contributions you would like to make!
+- Any contributions you would like to make! :old_key:
 
 Copyright (c) 06/02/2023 Casey Hill

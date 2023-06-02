@@ -2,14 +2,52 @@
 <html lang="en">
 
 <head>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Choose a Coding Language</title>
 </head>
 
 <body>
+    <div>
+        <h1>Choose a Coding Language</h1>
+        <p>Check which statements apply to you:</p>
 
+        <form id="languageSurvery">
+            <label for="q1">question 1</label>
+            <input id="q1" type="checkbox" name="q1" value="yes">
+            <br>
+            <label for="q2">question 2</label>
+            <input id="q2" type="checkbox" name="q2" value="yes">
+            <br>
+            <label for="q3">question 3</label>
+            <input id="q3" type="checkbox" name="q3" value="yes">
+            <br>
+            <label for="q4">question 4</label>
+            <input id="q4" type="checkbox" name="q4" value="yes">
+            <br>
+            <label for="q5">question 5</label>
+            <input id="q5" type="checkbox" name="q5" value="yes">
+            <br>
+            <button id="subButton" type="submit">Submit</button>
+        </form>
+        <div class="largeFont">
+            <div id="python" class="hidden">
+                <p>You should try Python!</p>
+            </div>
+            <div id="javaScript" class="hidden">
+                <p>You should try JavaScript!</p>
+            </div>
+            <div id="rust" class="hidden">
+                <p>You should try Rust!</p>
+            </div>
+            <div id="errorMessage" class="hidden">
+                <p>You should select at least one statement. Try again.</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

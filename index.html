@@ -14,43 +14,45 @@
     <div>
         <h1>Choose a Coding Language</h1>
         <p>Check which statement is most important to you when choosing a language:</p>
+        <div class="form-class">
+            <form id="languageSurvery">
+                <input id="q1" type="radio" name="language" value="python">
+                <label for="q1">I care about concise, easily readable, and straightforward syntax.</label>
+                <br>
+                <input id="q2" type="radio" name="language" value="javascript">
+                <label for="q2">I primarily want to learn a scripting language.</label>
+                <br>
+                <input id="q3" type="radio" name="language" value="rust">
+                <label for="q3">I care about a faster performance with low memory footprint.</label>
+                <br>
+                <input id="q4" type="radio" name="language" value="javascript">
+                <label for="q4">This is a javascript statement to fit the div.</label>
+                <br>
+                <input id="q5" type="radio" name="language" value="python">
+                <label for="q5">This is a python statement to fit the div.</label>
+                <br>
+                <button id="subButton" type="submit">Submit</button>
+            </form>
 
-        <form id="languageSurvery">
-            <input id="q1" type="radio" name="language" value="python">
-            <label for="q1">I care about concise, easily readable, and straightforward syntax.</label>
-            <br>
-            <input id="q2" type="radio" name="language" value="javascript">
-            <label for="q2">I primarily want to learn a scripting language.</label>
-            <br>
-            <input id="q3" type="radio" name="language" value="rust">
-            <label for="q3">I care about a faster performance with low memory footprint.</label>
-            <br>
-            <input id="q4" type="radio" name="language" value="javascript">
-            <label for="q4">This is a javascript statement to fit the div.</label>
-            <br>
-            <input id="q5" type="radio" name="language" value="python">
-            <label for="q5">This is a python statement to fit the div.</label>
-            <br>
-            <button id="subButton" type="submit">Submit</button>
-        </form>
-        <div class="largeFont">
-            <div id="python" class="hidden">
-                <p>You should try Python!</p>
-                <p>Python is more readable than most languages because it uses a simplified syntax with clear and
-                    intuitive keywords and structures, making it easier to understand and follow even for those new to
-                    coding.</p>
-            </div>
-            <div id="javaScript" class="hidden">
-                <p>You should try JavaScript!</p>
-            </div>
-            <div id="rust" class="hidden">
-                <p>You should try Rust!</p>
-            </div>
-            <div id="errorMessage" class="hidden">
-                <p>You should really select at least one statement. Try again.</p>
+            <div class="choiceResponse">
+                <div id="python" class="hidden">
+                    <p class="bold">You should try <span class="uppercase">Python!</span></p>
+                    <p>Python is more readable than most languages because it uses a simplified syntax with clear and
+                        intuitive keywords and structures, making it easier to understand and follow even for those new
+                        to
+                        coding.</p>
+                </div>
+                <div id="javaScript" class="hidden">
+                    <p>You should try JavaScript!</p>
+                </div>
+                <div id="rust" class="hidden">
+                    <p>You should try Rust!</p>
+                </div>
+                <div id="errorMessage" class="hidden">
+                    <p>You should really select at least one statement. Try again.</p>
+                </div>
             </div>
         </div>
-    </div>
 </body>
 
 </html>

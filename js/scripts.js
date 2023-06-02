@@ -7,6 +7,7 @@ function hideResults() {
 
 function handleRadio(event) {
     event.preventDefault();
+    hideResults();
     const q1 = document.querySelector("#q1:checked");
     const q2 = document.querySelector("#q2:checked");
     const q3 = document.querySelector("#q3:checked");
